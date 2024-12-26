@@ -51,6 +51,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -65,6 +66,10 @@ h2 {
 .btn--small {
   font-size: 14px;
   padding: 8px 12px;
+}
+
+img {
+  border-radius: 12px;
 }
 
 /* ------------------------ */
@@ -88,6 +93,8 @@ h1 {
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
+
+  /* text-shadow: 0 20px 3px rgb(0, 0, 0, 0.2); */
 }
 
 .header-text {
@@ -102,6 +109,10 @@ img {
 
 /* FEATURES */
 .features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
 }
 
 .features-title {
@@ -119,6 +130,7 @@ img {
   background-color: #087f5b;
   color: #fff;
   padding: 24px;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -139,6 +151,16 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+  box-shadow: 0 20px 30px 0 rgb(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .chair-box {
   padding: 24px;
 }
@@ -165,6 +187,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
